@@ -14,42 +14,42 @@ public class BioData{
         char languageSkilled;
 
         Scanner input = new Scanner(System.in);
-        Scanner sc = new Scanner(System.in);
 
         //Full Name
-        System.out.println("Enter your full name :");
+        System.out.print("Enter your full name :");
         name = input.nextLine();
 
         //Age
-        System.out.println("Enter your age :");
+        System.out.print("Enter your age :");
         age = input.nextByte();
 
         //Date of Birth
-        System.out.println("Enter your DOB :");
-        dateOfBirth = sc.nextLine();
+        System.out.print("Enter your DOB :");
+        dateOfBirth = input.nextLine();
+        dateOfBirth = input.nextLine();
 
         //Contact number
-        System.out.println("Enter your contact number :");
+        System.out.print("Enter your contact number :");
         contactNumber = input.nextLong();
 
         //Area pinCode
-        System.out.println("Enter area pin code :");
+        System.out.print("Enter area pin code :");
         pinCode = input.nextInt();
 
         //10th obtained mark
-        System.out.println("Enter marks obtained in 10th :");
+        System.out.print("Enter marks obtained in 10th :");
         mark = input.nextShort();
 
         //graduated or not
-        System.out.println("Are you graduated or not enter true or false :");
+        System.out.print("Are you graduated or not enter true or false :");
         graduated = input.nextBoolean();
 
         //percentage obtained in 10th
-        System.out.println("Enter percentage obtained in 10th :");
+        System.out.print("Enter percentage obtained in 10th :");
         percentage = input.nextFloat();
 
         //Language Skilled
-        System.out.println("Enter name of language you have skilled :");
+        System.out.print("Enter name of language you have skilled :");
         languageSkilled = input.next().charAt(0);
 
         //Prepared BioData
