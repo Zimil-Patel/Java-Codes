@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class SwapMethod1 {
+public class SwapMethod2 {
 
     public static void main(String[] args){
 
-        Byte x, y;
+        Byte x, y, temp;
 
         Scanner input = new Scanner(System.in);
 
@@ -16,10 +16,11 @@ public class SwapMethod1 {
 
         System.out.println("\n--Values Before swapping--\nx = "+x+"\ny = "+y);
 
-        x = (byte) (x + y);
-        y = (byte) (x - y);
-        x = (byte) (x - y);
+        temp = x;
+        x = y;
+        y = temp;
 
         System.out.println("\n--Values After swapping--\nx = "+x+"\ny = "+y);
+
     }
 }
