@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-public class For_Factorial {
+public class Temperate2 {
+
 
     public static void main(String[] args){
 
-        int x, n, factorial = 1;
+        short x, n;
 
         Scanner in = new Scanner(System.in);
 
@@ -12,13 +13,11 @@ public class For_Factorial {
         System.out.print("Enter the value of n : ");
         n = in.nextShort();
 
-        for (x = 1 ; x <= n; x++){
+        for (x = 1 ; x <= 10; x++){
 
-            factorial *= x;
+            System.out.println(n+" * "+x+" = "+(n*x));
+
         }
 
-        System.out.println("Factorial of 1 To "+n+" = "+factorial);
-
     }
-
 }
