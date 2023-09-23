@@ -6,7 +6,10 @@ public class For_1To10 {
 
         for(x = 1; x <= 10; x++){
 
-            System.out.println(x);
+            System.out.print(x);
+
+            if ( x < 10)
+                System.out.print(", ");
         }
 
     }
