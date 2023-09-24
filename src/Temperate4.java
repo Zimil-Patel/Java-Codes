@@ -11,7 +11,7 @@ public class Temperate4 {
 
         System.out.print("Enter the number : ");
         n = in.nextLong();
-        
+
         sum += n%10;
         
         temp = n;
