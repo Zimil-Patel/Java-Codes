@@ -14,7 +14,7 @@ public class AreaOfRectangle {
         System.out.print("Enter width of rectangle : ");
         width = input.nextShort();
 
-        System.out.println("Area of rectangle is "+(length * width));
+        System.out.println("\n\nArea of rectangle is "+(length * width));
 
     }
 
