@@ -12,7 +12,7 @@ public class DoWhile_Odd {
 
         do {
             if( x % 2 != 0)
-                System.out.println(x);
+                System.out.print(x+" ");
 
             x++;
         } while (x <= n);
