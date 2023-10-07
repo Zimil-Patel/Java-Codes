@@ -12,7 +12,7 @@ public class DoWhile_Even {
 
         do {
             if (n % 2 == 0)
-                System.out.println(n);
+                System.out.print(n+" ");
             n--;
         } while (n > 0);
 
