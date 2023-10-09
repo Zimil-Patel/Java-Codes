@@ -17,6 +17,6 @@ public class Formula7 {
         System.out.print("Enter value of y :");
         z = input.nextShort();
 
-        System.out.println("(x - y - z)^3 = "+(short)((x * x * x) - (y * y * y) - (z * z * z) + 3 * ((x - y) * ( -y - z) * (x - z))));
+        System.out.println("(x - y - z)^3 = "+(short)((x * x * x) - (y * y * y) - (z * z * z) + 3 * ((x - y) * ( -y - z) * (x - z)))+"\n");
     }
 }
