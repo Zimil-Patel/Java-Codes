@@ -23,7 +23,7 @@ public class FindMinMax {
                 System.out.println("num1("+num1+") is Min number!");
             }
         } else {
-            System.out.println("both numbers are equals!");
+            System.out.println("both numbers are equals!\n");
         }
     }
 
