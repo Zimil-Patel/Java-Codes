@@ -15,7 +15,7 @@ public class For_1ToN {
         for (x = 1 ; x <= n; x++){
 
 
-            System.out.println(x);
+            System.out.print(x+" ");
         }
 
     }
