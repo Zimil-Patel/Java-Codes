@@ -14,7 +14,7 @@ public class For_NTo1 {
 
         for(;n > 0; n--){
 
-            System.out.println(n);
+            System.out.print(n+" ");
 
         }
 
