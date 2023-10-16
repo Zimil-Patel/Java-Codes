@@ -58,7 +58,7 @@ public class BioData{
         System.out.println("Date of Birth: "+dateOfBirth);
         System.out.println("Age: "+age);
         System.out.println("10th marks: "+mark);
-        System.out.println("10th percentage: "+percentage+"%");
+        System.out.print("10th percentage: "+percentage+"%\n");
         System.out.println("Graduated: "+graduated);
         System.out.println("Contact number: "+contactNumber);
         System.out.println("Are pin code: "+pinCode);
