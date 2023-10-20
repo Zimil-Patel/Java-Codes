@@ -6,7 +6,7 @@ public class For_10To1 {
 
         for(x = 10; x > 0; x--){
 
-            System.out.println(x);
+            System.out.print(x+" ");
 
         }
 
