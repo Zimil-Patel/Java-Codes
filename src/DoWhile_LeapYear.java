@@ -7,7 +7,7 @@ public class DoWhile_LeapYear {
         do{
 
             if (x % 4 == 0)
-                System.out.println(x);
+                System.out.print(x+" ");
             x++;
         } while(x <= 3000);
 
