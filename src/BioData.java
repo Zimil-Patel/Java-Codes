@@ -62,6 +62,6 @@ public class BioData{
         System.out.println("Graduated: "+graduated);
         System.out.println("Contact number: "+contactNumber);
         System.out.println("Are pin code: "+pinCode);
-        System.out.println("language Skilled: "+languageSkilled);
+        System.out.print("language Skilled: "+languageSkilled);
     }
 }
