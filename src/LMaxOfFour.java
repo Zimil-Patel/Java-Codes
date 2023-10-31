@@ -33,7 +33,7 @@ public class LMaxOfFour {
             System.out.println("num3("+num3+") is maximum");
         } else if(num4 > num1 && num4 > num2 && num4 > num3){
 
-            System.out.println("num4("+num4+") is maximum");
+            System.out.println("num4 ("+num4+") is maximum");
         }
     }
 }
