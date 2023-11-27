@@ -16,11 +16,11 @@ public class FindMinMax {
 
         if(num1 != num2){
             if(num1 > num2){
-                System.out.println("num1("+num1+") is Max number!");
-                System.out.println("num2("+num2+") is Min number!");
+                System.out.println("num1 ("+num1+") is Max number!");
+                System.out.println("num2 ("+num2+") is Min number!");
             } else{
-                System.out.println("num2("+num2+") is Max number!");
-                System.out.println("num1("+num1+") is Min number!");
+                System.out.println("num2 ("+num2+") is Max number!");
+                System.out.println("num1 ("+num1+") is Min number!");
             }
         } else {
             System.out.println("both numbers are equals!\n");
