@@ -17,7 +17,7 @@ public class For_Factorial {
             factorial *= x;
         }
 
-        System.out.println("Factorial of 1 To "+n+" = "+factorial);
+        System.out.println("Factorial of 1 To "+n+" : "+factorial);
 
     }
 
